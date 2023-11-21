@@ -2,7 +2,7 @@
  import { useNavigate, useParams} from "react-router-dom";
  import axios from "axios";
  import { useState, useEffect } from "react";
-//  import DeleteModal from "./DeleteModal";
+ import DeleteModal from "./DeleteModal";
 
  function ShowPage() {
   const API = import.meta.env.VITE_API_URL;
@@ -10,7 +10,7 @@
   const  { id } = useParams();
 
   const [cat, setCat] = useState("");
-  // const [deleteToggle, setDeleteToggle] = useState(false)
+  const [deleteToggle, setDeleteToggle] = useState(false)
  
 
    useEffect( ( ) => {
@@ -71,14 +71,13 @@
           <button 
           type="button"
           className="btn btn-secondary px-5 me-5"
-          // onClick={() => setDeleteToggle(!deleteToggle)}
+          onClick={() => setDeleteToggle(!deleteToggle)}
           >
           DELETE
         </button>
       </div> 
-       {/* { 
          deleteToggle && <DeleteModal setDeleteToggle={setDeleteToggle} />
-         }  */}
+       
      </div>
     </div> 
   </div>   
