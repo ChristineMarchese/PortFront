@@ -12,6 +12,8 @@ https://us06web.zoom.us/rec/share/KMOUHA6hdbp4emvVYISfPfpv6c6Cqi70mIEeL8x0jSSNuz
 PASSWORD: A2+jB7?l
 
 Backend:
-https://github.com/ChristineMarchese/backend-project-portfolio
 
-https://github.com/ChristineMarchese/FE-PORTFOLIO
+
+https://portfoliofe.netlify.app/
+https://porfoliobe.onrender.com
+https://github.com/ChristineMarchese/backend-project-portfolio
